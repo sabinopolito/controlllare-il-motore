@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentazione Natalizia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://www.w3schools.com/w3images/snow.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            overflow: hidden;
+        }
+        .slide {
+            display: none;
+            padding: 20px;
+            text-align: center;
+            transition: opacity 0.5s ease-in-out;
+            height: 100vh;
+        }
+        .active {
+            display: block;
+        }
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        h1 {
+            font-size: 3em;
+        }
+        .content {
+            max-width: 80%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div id="slide1" class="slide active">
+            <div class="content">
+                <h1>Benvenuti alla Presentazione Natalizia!</h1>
+                <p>Prepariamoci a vivere insieme la magia del Natale.</p>
+            </div>
+        </div>
+
+        <div id="slide2" class="slide">
+            <div class="content">
+                <h1>Il Natale inizia con il cuore</h1>
+                <p>Ogni anno ci ricordiamo della bellezza della vita e dei legami familiari.</p>
+            </div>
+        </div>
+
+        <div id="slide3" class="slide">
+            <div class="content">
+                <h1>Decorazioni Natalizie</h1>
+                <p>Le luci scintillanti e gli alberi addobbati creano un'atmosfera magica.</p>
+            </div>
+        </div>
+
+        <div id="slide4" class="slide">
+            <div class="content">
+                <h1>La Tradizione della Vigilia</h1>
+                <p>Un momento di riflessione e di unione familiare.</p>
+            </div>
+        </div>
+
+        <div id="slide5" class="slide">
+            <div class="content">
+                <h1>La Magia della Neve</h1>
+                <p>La neve trasforma il mondo in un paesaggio incantato.</p>
+            </div>
+        </div>
+
+        <div id="slide6" class="slide">
+            <div class="content">
+                <h1>La Musica di Natale</h1>
+                <p>Le canzoni natalizie riempiono le strade di allegria.</p>
+            </div>
+        </div>
+
+        <div id="slide7" class="slide">
+            <div class="content">
+                <h1>Il Regalo Perfetto</h1>
+                <p>Il regalo non è solo un oggetto, ma un pensiero che viene dal cuore.</p>
+            </div>
+        </div>
+
+        <div id="slide8" class="slide">
+            <div class="content">
+                <h1>Le Tradizioni Natalizie nel Mondo</h1>
+                <p>Ogni paese ha il suo modo speciale di celebrare il Natale.</p>
+            </div>
+        </div>
+
+        <div id="slide9" class="slide">
+            <div class="content">
+                <h1>Un Sorriso per Natale</h1>
+                <p>Le piccole cose, come un sorriso, rendono il Natale speciale.</p>
+            </div>
+        </div>
+
+        <div id="slide10" class="slide">
+            <div class="content">
+                <h1>Il Natale e la Famiglia</h1>
+                <p>Stare insieme alla propria famiglia è il dono più bello del Natale.</p>
+            </div>
+        </div>
+
+        <div id="slide11" class="slide">
+            <div class="content">
+                <h1>La Magia della Nochebuena</h1>
+                <p>La tradizione spagnola di festeggiare il Natale con la famiglia e un grande pasto.</p>
+            </div>
+        </div>
+
+        <div id="slide12" class="slide">
+            <div class="content">
+                <h1>Il Calore del Camino</h1>
+                <p>Accendere il fuoco del camino crea un'atmosfera di intimità e calore.</p>
+            </div>
+        </div>
+
+        <div id="slide13" class="slide">
+            <div class="content">
+                <h1>I Colori del Natale</h1>
+                <p>Rosso, verde, oro e argento: colori che simboleggiano la gioia del Natale.</p>
+            </div>
+        </div>
+
+        <div id="slide14" class="slide">
+            <div class="content">
+                <h1>Le Luci di Natale</h1>
+                <p>Le luci sono una parte essenziale della decorazione natalizia, portano gioia e magia.</p>
+            </div>
+        </div>
+
+        <div id="slide15" class="slide">
+            <div class="content">
+                <h1>La Cena di Natale</h1>
+                <p>Un momento di condivisione e convivialità, con piatti tradizionali.</p>
+            </div>
+        </div>
+
+        <div id="slide16" class="slide">
+            <div class="content">
+                <h1>Il Natale e la Speranza</h1>
+                <p>Il Natale ci ricorda l'importanza di sperare, sognare e amare.</p>
+            </div>
+        </div>
+
+        <div id="slide17" class="slide">
+            <div class="content">
+                <h1>Un Viaggio di Natale</h1>
+                <p>Il Natale è anche l'occasione per viaggiare e scoprire nuove tradizioni.</p>
+            </div>
+        </div>
+
+        <div id="slide18" class="slide">
+            <div class="content">
+                <h1>Gli Auguri di Natale</h1>
+                <p>Gli auguri sono un modo per diffondere felicità e amore durante le festività.</p>
+            </div>
+        </div>
+
+        <div id="slide19" class="slide">
+            <div class="content">
+                <h1>Il Natale dei Bambini</h1>
+                <p>Per i bambini, il Natale è un sogno che prende vita.</p>
+            </div>
+        </div>
+
+        <div id="slide20" class="slide">
+            <div class="content">
+                <h1>Grazie per aver Partecipato!</h1>
+                <p>Auguri di Buon Natale a tutti!</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.remove('active');
+                if (i === index) {
+                    slide.classList.add('active');
+                }
+            });
+        }
+
+        function nextSlide() {
+            if (currentSlide < slides.length - 1) {
+                currentSlide++;
+            } else {
+                currentSlide = 0;
+            }
+            showSlide(currentSlide);
+        }
+
+        function prevSlide() {
+            if (currentSlide > 0) {
+                currentSlide--;
+            } else {
+                currentSlide = slides.length - 1;
+            }
+            showSlide(currentSlide);
+        }
+
+        // Event listeners for keyboard navigation
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'ArrowRight') {
+                nextSlide();
+            } else if (event.key === 'ArrowLeft') {
+                prevSlide();
+            }
+        });
+    </script>
+</body>
+</html>
